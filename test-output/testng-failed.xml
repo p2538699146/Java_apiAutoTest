@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="16" guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]" allow-return-values="true">
+  <listeners>
+    <listener class-name="com.autotest.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="16" name="获取用户个人信息(failed)">
+    <classes>
+      <class name="com.autotest.cases.getUserInfoData">
+        <methods>
+          <include name="getUserInfoData_Test" invocation-numbers="0"/>
+          <include name="batchWriteBackDaras"/>
+        </methods>
+      </class> <!-- com.autotest.cases.getUserInfoData -->
+    </classes>
+  </test> <!-- 获取用户个人信息(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

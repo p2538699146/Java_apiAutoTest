@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="antlr">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/.m2/repository/antlr" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

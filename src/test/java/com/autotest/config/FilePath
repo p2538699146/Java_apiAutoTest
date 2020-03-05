@@ -1,0 +1,3 @@
+jdbc.properties=D:\Java_apiauto_test\src\test\java\com\autotest\config\jdbc.properties
+Case_Service.xlsx=D:\Java_apiauto_test\src\test\java\com\autotest\config\Case_Service.xlsx
+testUrl.properties=D:\Java_apiauto_test\src\test\java\com\autotest\config\testUrl.properties

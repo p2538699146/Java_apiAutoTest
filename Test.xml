@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="20" allow-return-values="true">
+     <!--thread-count设置多线程执行测试用例-->
+
+    <test name="手机号验证登录">
+        <classes>
+            <class name="com.autotest.cases.Login_by_mobile" />
+        </classes>
+    </test>
+    <test name="获取用户个人信息">
+        <classes>
+            <class name="com.autotest.cases.getUserInfoData" />
+        </classes>
+    </test>
+<!--
+    <test name="登录接口测试">
+        <classes>
+            <class name="com.autotest.cases.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="查询会员分组">
+        <classes>
+            <class name="com.autotest.cases.UserGetListTest"/>
+        </classes>
+    </test>
+
+    <test name="注册接口测试">
+        <classes>
+            <class name="com.autotest.cases.RegisterTest"/>
+        </classes>
+    </test>
+
+    <test name="天气接口测试">
+        <classes>
+            <class name="com.autotest.cases.WeatherTest"/>
+        </classes>
+    </test>-->
+    <!--ententsreport监控路径配置-->
+    <listeners>
+        <listener class-name="com.autotest.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

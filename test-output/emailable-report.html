@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">All Test Suite</th></tr>
+<tr><td><a href="#t0">手机号验证登录</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">2,624</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">获取用户个人信息</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1,223</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">3,847</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">手机号验证登录 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.autotest.cases.Login_by_mobile</td><td><a href="#m0">login_mobile_test</a></td><td rowspan="2">1583399127822</td><td rowspan="2">1483</td></tr><tr class="passedeven"><td><a href="#m1">login_mobile_test</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">获取用户个人信息 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.autotest.cases.getUserInfoData</td><td><a href="#m2">getUserInfoData_Test</a></td><td rowspan="1">1583399129460</td><td rowspan="1">1221</td></tr></tbody>
+</table>
+<h2>手机号验证登录</h2><h3 id="m0">com.autotest.cases.Login_by_mobile#login_mobile_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>13</td><td>5</td><td>{&quot;mobile&quot;:&quot;15600015906&quot;,&quot;smsCode&quot;: &quot;8888&quot;}</td><td>{
+  &quot;meta&quot;: {
+    &quot;success&quot;: true,
+    &quot;message&quot;: &quot;执行成功&quot;,
+    &quot;code&quot;: &quot;00000000&quot;
+  },
+  &quot;data&quot;: {
+    &quot;token&quot;: &quot;front_user_login_weixin_eyJkYXRlIjoxNTgyNTcyNTQ2ODQ0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI1NzI1NDY4NDQsInV1aWQiOiJjZDU1ZGYwNC1iMTJjLTQwMGQtOTNhZS0wNDMwN2RiYjhiOWUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0N70XivAg8tjXOrHzMSZPyRYO8fOXY6RVngmLSj0I9s&quot;,
+    &quot;msg&quot;: &quot;登录成功&quot;,
+    &quot;role&quot;: 2,
+    &quot;isNeedSetPwd&quot;: false,
+    &quot;setPwdToken&quot;: null,
+    &quot;isNeedGetOpenId&quot;: false,
+    &quot;setOpenIdToken&quot;: null,
+    &quot;isNeedUnbindMobile&quot;: false,
+    &quot;unbindMobileToken&quot;: null,
+    &quot;unbindMobile&quot;: null
+  }
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.autotest.cases.Login_by_mobile#login_mobile_test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>14</td><td>5</td><td>{&quot;mobile&quot;:&quot;15700118106&quot;,&quot;smsCode&quot;: &quot;8888&quot;}</td><td>{
+  &quot;meta&quot;: {
+    &quot;success&quot;: true,
+    &quot;message&quot;: &quot;执行成功&quot;,
+    &quot;code&quot;: &quot;00000000&quot;
+  },
+  &quot;data&quot;: {
+    &quot;token&quot;: null,
+    &quot;msg&quot;: null,
+    &quot;role&quot;: null,
+    &quot;isNeedSetPwd&quot;: true,
+    &quot;setPwdToken&quot;: &quot;eyJkYXRlIjoxNTgyNTcyNzQ3NjAzLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI1NzI3NDc2MDMsInV1aWQiOiIyOWU4MWI5NS02YWFlLTQxNTctYWNjMC03Nzk4MWE2YTVhYzUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0KyGBmL1s5HE7miuhOWq6WIFltvB7oq6cgjvHvJgtg&quot;,
+    &quot;isNeedGetOpenId&quot;: false,
+    &quot;setOpenIdToken&quot;: null,
+    &quot;isNeedUnbindMobile&quot;: false,
+    &quot;unbindMobileToken&quot;: null,
+    &quot;unbindMobile&quot;: null
+  }
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>获取用户个人信息</h2><h3 id="m2">com.autotest.cases.getUserInfoData#getUserInfoData_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>15</td><td>6</td><td>{&quot;role&quot;:&quot;${role}&quot;}</td><td>{
+  &quot;meta&quot;: {
+    &quot;success&quot;: true,
+    &quot;message&quot;: &quot;执行成功&quot;,
+    &quot;code&quot;: &quot;00000000&quot;
+  },
+  &quot;data&quot;: {
+    &quot;userMobile&quot;: &quot;15600015906&quot;,
+    &quot;userNickname&quot;: null,
+    &quot;userGender&quot;: 0,
+    &quot;userBirth&quot;: null,
+    &quot;userAvatar&quot;: null,
+    &quot;userRole&quot;: 2,
+    &quot;deliverName&quot;: &quot;陈涵&quot;,
+    &quot;deliverMobile&quot;: &quot;15600015986&quot;,
+    &quot;deliverProvince&quot;: &quot;浙江省&quot;,
+    &quot;deliverCity&quot;: &quot;杭州市&quot;,
+    &quot;deliverDistrict&quot;: &quot;西湖区&quot;,
+    &quot;deliverProvinceCode&quot;: &quot;330000&quot;,
+    &quot;deliverCityCode&quot;: &quot;330100&quot;,
+    &quot;deliverDistrictCode&quot;: &quot;330106&quot;,
+    &quot;deliverAddress&quot;: &quot;互联网创业园二号楼708&quot;,
+    &quot;isHighClubMember&quot;: false,
+    &quot;identityAuthStatus&quot;: 0
+  }
+}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

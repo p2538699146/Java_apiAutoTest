@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="aopalliance">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$MAVEN_REPOSITORY$/aopalliance" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

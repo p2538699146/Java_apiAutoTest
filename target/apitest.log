@@ -1,0 +1,966 @@
+2020-03-05 00:00:01 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 15:59:40 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200304235940POST6Un93K]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:00:02 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:00:02 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 15:59:40 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200304235940POSTpI1WNy]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:00:02 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:00:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:00:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:00:02 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:00:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:00:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:00:03 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:00:03 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 15:59:41 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200304235941GEToSO85s]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:00:03 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:00:03 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:01:34 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:01:12 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000112POST10V80Q]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:01:34 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:01:35 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:01:13 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000113POSTXt9F9Z]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:01:35 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:01:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:01:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:01:36 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:01:36 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:01:36 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:01:36 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:01:37 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:01:15 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000115GETm1ty5L]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:01:37 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:01:37 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:02:57 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:02:35 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000235POSTlHJAG4]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:02:57 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:02:57 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:02:35 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000235POSTXO18Be]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:02:57 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:02:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:02:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:02:57 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:02:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:02:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:02:58 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:02:58 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:02:36 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000236GETQ4bTKI]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:02:58 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:02:58 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:04:28 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:04:06 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000406POST8F3Lpr]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:04:28 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:04:28 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:04:06 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000406POSTv7nDd3]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:04:28 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:04:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:04:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:04:28 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:04:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:04:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:04:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:04:29 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:04:07 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000407GET2XAf1K]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:04:29 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:04:29 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:07:51 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:07:29 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000729POST1SanmD]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:07:51 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:07:51 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:07:29 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000729POSTs7pQhG]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:07:51 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:07:51 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:07:51 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:07:52 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:07:52 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:07:52 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:07:52 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:07:52 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:07:31 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000731GET40316R]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:07:52 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:07:52 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:10:08 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:09:46 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000946POSTggkqM7]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:10:08 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:10:08 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:09:46 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000946POST8FGIR8]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:10:08 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:10:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:10:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:10:08 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:10:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:10:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:10:09 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:10:09 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:09:47 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305000947GETaPg7b6]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 00:10:09 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 00:10:09 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 00:13:28 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:13:06 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305001306POSThKoSH3]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzM4Mzg2OTMwLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzMzgzODY5MzAsInV1aWQiOiI4MWNiZjg2Ny05Mzk2LTQ1ZTQtOGJmZC01YjAzYzQ4MjcwMzMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0FdK2DjyqbuUU8JJ1uQJO3nsJD5lAeLKPbGV5Ph23RRc","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 00:13:28 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:13:07 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305001307POST1y98MA]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzM4Mzg3MDc3LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzMzgzODcwNzcsInV1aWQiOiIwN2EyYzk4Yi00MGI1LTQ4ZjktYTE3Zi01ZmE0NGZlYmQxNjUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0taYSFQSktDHCxAUzxd473x9ZZVScPlJ25vs7wPNc","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 00:13:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:13:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:13:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 00:13:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 00:13:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 00:13:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 00:13:29 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Wed, 04 Mar 2020 16:13:08 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305001308GETq2DoV9]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 00:13:29 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 14:29:18 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:28:55 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAFmXrXTytAcAQqeAt8r31AMdt/eW; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"12","humidity":"37","info":"晴","wid":"00","direct":"东风","power":"4级","aqi":"47"},"future":[{"date":"2020-03-05","temperature":"5\/11℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"东风转持续无风向"},{"date":"2020-03-06","temperature":"7\/16℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"南风转持续无风向"},{"date":"2020-03-07","temperature":"9\/18℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"持续无风向转东风"},{"date":"2020-03-08","temperature":"11\/16℃","weather":"阴转小到中雨","wid":{"day":"02","night":"21"},"direct":"东风"},{"date":"2020-03-09","temperature":"8\/17℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"西北风"}]},"error_code":0}
+========================================================================================================================
+2020-03-05 14:29:18 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-03-05 14:29:18 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:28:55 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAAtU5H9ciAkAQqeAt5LBTBRfgNxR; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:29:18 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:28:55 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAAAeNmpwiAsAQqeAtz/iFxVO+9Pd; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:29:18 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 14:34:19 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:33:57 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAIauTGHKTgUAQqeAtxDtmKQ1IuPx; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"12","humidity":"37","info":"晴","wid":"00","direct":"东风","power":"4级","aqi":"47"},"future":[{"date":"2020-03-05","temperature":"5\/11℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"东风转持续无风向"},{"date":"2020-03-06","temperature":"7\/16℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"南风转持续无风向"},{"date":"2020-03-07","temperature":"9\/18℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"持续无风向转东风"},{"date":"2020-03-08","temperature":"11\/16℃","weather":"阴转小到中雨","wid":{"day":"02","night":"21"},"direct":"东风"},{"date":"2020-03-09","temperature":"8\/17℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"西北风"}]},"error_code":0}
+========================================================================================================================
+2020-03-05 14:34:19 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-03-05 14:34:20 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:33:57 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAKrTpVa/EwcAQqeAt+KuBOtP7VM0; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:34:20 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:33:57 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAPlKcXwAsQgAQqeAt//5oMw2qsru; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:34:20 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 14:36:15 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:35:52 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAJqxA2OhVA0AQqeAt3foB7iMVPwF; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"12","humidity":"37","info":"晴","wid":"00","direct":"东风","power":"4级","aqi":"47"},"future":[{"date":"2020-03-05","temperature":"5\/11℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"东风转持续无风向"},{"date":"2020-03-06","temperature":"7\/16℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"南风转持续无风向"},{"date":"2020-03-07","temperature":"9\/18℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"持续无风向转东风"},{"date":"2020-03-08","temperature":"11\/16℃","weather":"阴转小到中雨","wid":{"day":"02","night":"21"},"direct":"东风"},{"date":"2020-03-09","temperature":"8\/17℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"西北风"}]},"error_code":0}
+========================================================================================================================
+2020-03-05 14:36:15 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-03-05 14:36:15 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:35:53 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAMHg+k2qHAAAQqeAt49tJIcmmMMd; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:36:15 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:35:53 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAImaWkiY0QEAQqeAtwuGP3vrQ6ug; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:36:15 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 14:37:11 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:36:48 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAANBntCKUtgwAQqeAt6r17bU05zfV; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"12","humidity":"37","info":"晴","wid":"00","direct":"东风","power":"4级","aqi":"47"},"future":[{"date":"2020-03-05","temperature":"5\/11℃","weather":"多云","wid":{"day":"01","night":"01"},"direct":"东风转持续无风向"},{"date":"2020-03-06","temperature":"7\/16℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"南风转持续无风向"},{"date":"2020-03-07","temperature":"9\/18℃","weather":"阴转小雨","wid":{"day":"02","night":"07"},"direct":"持续无风向转东风"},{"date":"2020-03-08","temperature":"11\/16℃","weather":"阴转小到中雨","wid":{"day":"02","night":"21"},"direct":"东风"},{"date":"2020-03-09","temperature":"8\/17℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"西北风"}]},"error_code":0}
+========================================================================================================================
+2020-03-05 14:37:11 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-03-05 14:37:11 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:36:48 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAFfYmzdCmg4AQqeAtw2K9QTf964r; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:37:11 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:36:49 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAJEINXky6gAAQqeAt6kubCbpjLPi; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-03-05 14:37:11 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 14:59:07 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:58:44 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305145844POSTu8NXuZ]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzkxNTI0OTE0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTE1MjQ5MTQsInV1aWQiOiJlNTgyZDY0MS01ZDkzLTQ3MDUtOGI2Mi02YzlmODNjZTBjYWIiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In02tVMUPP5JISbA8gfSihXaWgqWxsaPRLAMs1ioSI910","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 14:59:07 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:58:45 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305145845POST6AIACq]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzkxNTI1MDYwLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTE1MjUwNjAsInV1aWQiOiI5NmUwZGY4ZC03YmM4LTRjZGQtOTdmYi1hMzFiOGU1MDU4NzMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0UO38pN75tiwI3DOQoHYmjX6I83f9kSKETSdN3qaAYMw","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 14:59:07 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 14:59:07 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 14:59:08 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 14:59:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 14:59:08 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 14:59:08 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 14:59:08 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 06:58:46 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305145846GET4JO593]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 14:59:08 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:02:26 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:02:03 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305150203POSThw8MX2]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzkxNzIzNDc2LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTE3MjM0NzYsInV1aWQiOiJlYzk3NDkyZi1iNTRiLTQzZTEtOWE2Ny04MTkzYTZiYWIyNTUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In05jAUDQ841j7YCaEucoNmks4L1K6lemHtlpc8Daa0","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:02:26 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:02:03 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305150203POST1CPmrL]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzkxNzIzNjExLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTE3MjM2MTEsInV1aWQiOiI2ODI0MGFlYy00NjFlLTQ5NzgtYmVjNS1mZWRmZjUzNWMxOTIiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0jwvu3DSP7VsrgKZRnEVAMDiPXuHik1hKBnHeNfDl0E","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:02:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:02:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:02:26 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:02:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:02:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:02:27 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:02:27 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:02:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305150204GETe8AE3U]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 15:02:27 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:04:33 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:04:33 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:04:34 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:04:34 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:04:34 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:04:34 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:15:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:15:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:15:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:15:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:15:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:15:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:31:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:31:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:31:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:31:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:31:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:31:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:32:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:32:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:32:44 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:32:44 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:32:44 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:32:45 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:36:49 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:36:49 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:36:49 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:36:49 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:36:49 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:36:50 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:36:51 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:36:28 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305153628GETac4hvM]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-03-05 15:36:51 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:57) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-03-05 15:36:51 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:41:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:41:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:41:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:41:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:41:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:41:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:41:47 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data&role=${role}
+2020-03-05 15:41:47 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:45:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:45:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:45:02 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:45:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:45:02 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:45:03 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:45:03 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data&role？${role}
+2020-03-05 15:45:03 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:49:36 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:49:14 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305154913POST3eforB]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk0NTU0MTExLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ1NTQxMTEsInV1aWQiOiI3ZDhiZGEzMC05OGUyLTQ1NjgtOTg1NC0yM2JhMWU1M2Y4MDYiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0uRMCFKts3lPYlUGqtvBtKl7npO8GkE52WY3OeyYQYsI","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:49:36 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:49:14 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305154914POSTBoedg5]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk0NTU0MjYxLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ1NTQyNjEsInV1aWQiOiIwNzRlMjc0NC03Y2M0LTRmMjktYTNkNy05MWZmYTAxOWI1N2UiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0ZZM6bAOziHF9efr51Pqvum6bmIJIKzUvvpygU4i4","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:49:36 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:49:36 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:49:37 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:49:37 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:49:37 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:49:37 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:49:38 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:49:15 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305154915GETjQ0p04]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 15:49:38 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:53:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:53:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:53:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:53:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:53:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:53:30 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:53:31 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:53:09 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155308POSTlkdcrj]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk0Nzg5MjQyLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ3ODkyNDIsInV1aWQiOiJkZThkYTZmZS0zODJhLTQyYWMtOTYwOS01MWZlMmM4NDBjMzMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0ArED3gh2NYcZtwva5zF81LI2LoW5rZKHv8n9RtAj96Y","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:53:31 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:53:09 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155309POSTdil57E]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk0Nzg5Mzg4LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ3ODkzODgsInV1aWQiOiIwYTAxOTM0Ny1hNWE0LTRjNzgtOWM1MC1iZjllMGM5ZDFlYjAiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0Q4XCCVqPiIKRG3xqAqbNahfvTzGONOJIXhftv2hH0","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:53:32 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:53:09 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155309GETJQgzda]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 15:53:32 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:55:24 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:55:24 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:55:25 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:55:25 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:55:25 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:55:25 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 15:55:26 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:55:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155503POSTHyj83h]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk0OTA0MzE3LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ5MDQzMTcsInV1aWQiOiIzNjI5ZTQ0OC04OGRjLTQ3MjItODI1Zi05NDc0NjkyNGM0NjQiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0Acv4Zv23wPBGJ89MrlLCJ0FD06bnMohdVhc1yDvaKwM","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:55:26 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:118) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 15:55:27 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:55:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155504POSTr0CSSF]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk0OTA0NDYxLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTQ5MDQ0NjEsInV1aWQiOiIzODBmYmE2Yy1kNDA5LTRmY2ItODM5ZC04M2M4MWViM2Y4ZmQiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0MM540VDtGPMz1HYwbfnq6N6ZKdD6I0kRFAMjGAB2jZ4","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 15:55:27 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 07:55:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305155504GETIRjwd6]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 15:55:27 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 15:59:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:59:46 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:59:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 15:59:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 15:59:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 15:59:47 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:00:24 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:00:02 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160001POST31Qgkz]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk1MjAyMzIyLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTUyMDIzMjIsInV1aWQiOiJmZGUxZjRlNS0yZWY4LTQ1NDctOWM2Yy1lMTgwN2IxODA1NDIiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In07aTgjbFhu7f0wrGp6f1Hr5vvHFCxXeq7JUyX7fgsg","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:00:58 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:118) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 16:01:18 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:00:55 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160055POSTel5dP2]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk1MjU1NzA3LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTUyNTU3MDcsInV1aWQiOiIwNDQyYjJkZC03OTQ3LTRmMjgtOGE0Ni04YjhlYWMzYThkMDYiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0ocsjKUTjQHMttfdOKDgCYWW11LdXlzo2mLo3XMxrE","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:01:42 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:01:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160119GETR7920Q]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:01:42 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:05:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:05:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:05:21 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:05:21 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:05:21 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:05:21 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:05:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:05:00 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160459POST0uc3Gw]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk1NTAwMTg4LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTU1MDAxODgsInV1aWQiOiJmZGMyZDk1Yi1lYTU1LTQwMWQtYmM2MC01ZjFkOTgwYTQyNjUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0XnVSqfvUlZegr3Nj5r7Xo5pFnkpV5hEEDbfQbxXg2D8","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:05:22 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:118) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 16:05:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:05:00 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160500POST1Dqv38]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk1NTAwMzI2LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTU1MDAzMjYsInV1aWQiOiI1Mjg5NjQwZi01MGJjLTQ4OTItYjE4Mi05NWQwNzc0ZmNjZmQiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0fxQid2gUJQjBih9hUya535klUUCle7rHDsvFsGmmak","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:05:23 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:05:00 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160500GETDt9Jt3]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:05:23 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:10:19 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:10:19 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:10:20 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:10:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:10:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:10:20 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:10:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:09:59 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160959POSTsv7AIo]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk1Nzk5NDYzLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTU3OTk0NjMsInV1aWQiOiI4ZjAyZjliNC03MjhiLTQ2ZmItOTg1MS03MDU0MmEzNzc1MzUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0W9LgSnYC97OyFHwIOmDBPTRC3FEDdK9UoWOGodIYm0U","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:10:22 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:118) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 16:10:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:09:59 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160959POST9pzpye]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk1Nzk5NjA5LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTU3OTk2MDksInV1aWQiOiIwMTY4YmI1ZS0zMTMzLTQxYTgtYmIxMC0wNTY2NDVjMzYwODciLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0suN78GybstrOKSl5Qw6tiNeC4lkIBAg9GN4yzikP8","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:10:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:09:59 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305160959GETm6qclW]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:10:22 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:11:37 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:11:37 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:11:42 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:11:42 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:11:42 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:11:43 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:14:13 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:13:50 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305161350POST20zZ9Y]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk2MDMwOTQ5LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTYwMzA5NDksInV1aWQiOiI1M2JiZDlmMS1jZDU0LTRhZDYtODc2YS1iZDY2ZmI0NzU4ZGYiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0eeQ7zlGPZuwP1sCfIQCtvJ5KRb3WkATQZ6ZFNi8tRE","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:14:16 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:118) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 16:14:16 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:13:54 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305161354POST0axzc8]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk2MDM0MDk2LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTYwMzQwOTYsInV1aWQiOiIyOWE4YTE3ZS0yNDRmLTQwMzUtOTgwYS1hMmFmYWQ3OGE2OWQiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In00BHHkrPmRQhrkdDQTnbOaz1Z7xs44gwW1Eoi8A624","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:14:16 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:13:54 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305161354GETDj7isA]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:14:16 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:14:59 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:14:59 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:20:38 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:20:38 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:20:43 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:20:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:20:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:20:44 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:21:15 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:20:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162052POST4fo00o]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk2NDUzMzc2LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY0NTMzNzYsInV1aWQiOiJiYTFkMWU1ZC0xZDU3LTQ3OGMtYmViMi0yZGI1YzZjMWEzYTAiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0f86vThwkOyBfRebICR41U6Ek2ccC4ok8k24yaegcEw","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:21:50 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:21:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162128POSTk182di]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk2NDg4Mjc2LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY0ODgyNzYsInV1aWQiOiJkNTJlYWZmZS0zMjdjLTQ4M2QtODAyZS1mMzk3ODlmMDljNjciLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0ef3GGCovAs4BND8mn3WeNQYrQsHrpLQis6s5HN2D16E","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:22:18 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:21:56 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162156GETSV7UR7]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:22:53 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:27:40 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:27:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162717POSTUVb61f]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk2ODM4MTI1LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY4MzgxMjUsInV1aWQiOiI0ZTY1MmU5MC0xY2RjLTQ1NGItYjU2NS05ZGE3ZjdhZWIyY2YiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0dCLOu2varS7WlzoTalhV05LCiCBCOnf0wcHRzGueEA","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:27:50 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:27:27 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162727POST5Q1Tq6]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk2ODQ3NzQ5LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY4NDc3NDksInV1aWQiOiJhZTFlZGJkYS0xMDA4LTQ5OTgtOWVkYy04MGM5YzkzYTY2YjMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0XhRxnnnxtPn2AH6znE6gIAcvmeSYQAVSJPg4FQRsg","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:27:50 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:27:27 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162727GET3WrJPw]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:27:50 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:28:40 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:28:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162817POSTxcC2k7]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk2ODk4MTY2LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY4OTgxNjYsInV1aWQiOiJjN2MxOWRjMS00M2JjLTQyOTEtOTY2MC00OGU1ZDRiMDAyMjAiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0j9Tig3sWNU7IdKM1K6OqC2z1F81khWJoAQj0ZxsHE","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:28:40 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:28:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162818POST31o71L]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk2ODk4MzIwLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY4OTgzMjAsInV1aWQiOiI2Y2Q0ZmRkNi04NmFlLTRiODgtYWU3Ny05MzNjYmZlOWJkOGMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0DdzUNbAm2LTeopZqz91uATCg30fJo7OSWItpW2SrS3s","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:28:41 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:28:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162818GET9po59Z]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:28:41 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:30:07 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:29:45 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162944POSTjsZk4y]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk2OTg1MDU1LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY5ODUwNTUsInV1aWQiOiJlZjBmZWIxMS04NjRjLTRiODctYWM0Ni0wOTk4MjY0YmMwMjEiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0i7CINfIvEIAzDp4Cd8RqvI8sLW9NaknCNk0rWojacPM","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:30:07 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:29:45 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162945POSTLjgJWI]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk2OTg1MTg4LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTY5ODUxODgsInV1aWQiOiJlOWUwM2ZhNS1iMGZhLTQ5MWEtOTllMC00NGMyN2E2MzM4ZDEiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0zWOAjB6sNpUhxz5KdV7eEoe6Vmv2ZFGcteqL3BHsck","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:30:07 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:29:45 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305162945GETy069CX]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:30:07 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:33:01 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:33:01 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:33:01 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:33:01 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:33:01 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:33:02 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:33:02 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:117) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{}
+2020-03-05 16:33:02 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data&role？${role}
+2020-03-05 16:33:02 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:33:57 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:33:34 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163334POSTs8hWIf]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk3MjE0OTMzLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTcyMTQ5MzMsInV1aWQiOiI2MDI4YmVmZi0xMjg1LTRiYTAtOTQzYy1iY2I4NjYwM2FmNTciLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0BDWcJ2vMrqUJfzS3gTgLD6aOIWP6VpjtSOU9PjgaU","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:33:57 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:33:35 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163335POSTZ3sahD]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk3MjE1MDYzLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTcyMTUwNjMsInV1aWQiOiIxODdkZmE4YS02MjUxLTQwN2ItODFlMi1lMzcwNmNlZWU3OTUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0Iz5syFHAu08JBfPvZIgVvFhWdejXq9EaNOVUxzuTbA","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:33:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:33:57 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:33:58 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:33:58 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:33:58 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:33:58 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:33:58 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:117) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{"msg":"登录成功","role":"2"}
+2020-03-05 16:33:58 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data&msg？登录成功
+2020-03-05 16:33:58 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data&msg？登录成功&role=2
+2020-03-05 16:33:58 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[404]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:33:36 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163336GETw5oVSc]
+=========================================================>响应体<========================================================
+{"timestamp":"2020-03-05 16:33:36","status":404,"error":"Not Found","message":"No message available","path":"/front/api/v1/uc-user-base/get-user-info-data&msg%EF%BC%9F%E7%99%BB%E5%BD%95%E6%88%90%E5%8A%9F&role=2"}
+========================================================================================================================
+2020-03-05 16:33:58 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-03-05 16:33:58 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:36:47 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:36:25 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163624POSTU7Pxt6]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk3Mzg1MDM0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTczODUwMzQsInV1aWQiOiJhYzNlMjNmMy1jOWNjLTQzNDMtOTM0OS0xYTZiNTFmYmE4NDkiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0SErdWgCCb4UyiGjnFGKmaQAQwhKSo1EWU7D5NW6LE","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:36:47 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:36:25 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163625POST78W4Q5]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk3Mzg1MTkyLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTczODUxOTIsInV1aWQiOiIzYmExZmFmNS1mYmQxLTQ4ODAtOThjOS01ODFkZTcxYTljYzUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0uVPJ3Ve4WlsvEzxN0nDVH2a5IcxB5CQrsJc89kiII","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:36:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:36:47 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:36:48 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:36:48 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:36:48 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:36:48 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:36:48 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:117) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{"msg":"登录成功","role":"2"}
+2020-03-05 16:36:48 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg&登录成功
+2020-03-05 16:36:48 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg&登录成功&role=2
+2020-03-05 16:36:49 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:36:26 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163626GETbM2sUB]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:36:49 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 16:37:35 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:37:12 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163712POSTuysRT7]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk3NDMyNDkzLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTc0MzI0OTMsInV1aWQiOiJiYmM1YWZiNy0wMGYwLTQ2MzQtODRkNS1hZDdhZDBhMGYyYzgiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0knk82arexT8Y91GENWO0i5gvfLeVawkIi0fXSDsxUw","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:37:35 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:37:12 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163712POSTp59H72]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk3NDMyNjQzLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTc0MzI2NDMsInV1aWQiOiIyMjYxMzZmYi0zYjgzLTQwYmUtOTcxYy02MzIwOTFmNTg1M2EiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0y4qMVivILaR0uda8UeHa8Qq1J09HNo9I3rXSq9cS4","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 16:37:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:37:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:37:35 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 16:37:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 16:37:35 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 16:37:36 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 16:37:36 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:117) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{"msg":"登录成功","role":"2"}
+2020-03-05 16:37:36 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg=登录成功
+2020-03-05 16:37:36 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg=登录成功&role=2
+2020-03-05 16:37:36 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 08:37:13 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305163713GETa7m57N]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 16:37:36 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-03-05 17:05:29 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 09:05:06 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305170506POST5VMq7h]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgzMzk5MTA2NjY0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTkxMDY2NjQsInV1aWQiOiI0MTU3YjJlZi0yMTY0LTRjZWYtOGJhNi1iNzFkOWIxYjhmOWIiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0PSLVoVRFgcv3YTbFOF9j2lCImzIomkMlZNarPlvqRjU","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 17:05:29 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 09:05:06 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305170506POSTiQ9hLC]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgzMzk5MTA2ODA2LCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODMzOTkxMDY4MDYsInV1aWQiOiJjMjA0ZjBlMi04Njg5LTQ1OWItYTIxZS03NjBmY2Q4OTA2ODAiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In05A9kqucg5iO01CnjA01ClSot8SVRwoccIzlAv48x0","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-03-05 17:05:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 17:05:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 17:05:30 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-03-05 17:05:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:115) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-03-05 17:05:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:125) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-03-05 17:05:30 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:56) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-03-05 17:05:30 method: com.autotest.util.Global_VariableUtil.replaceJSONAll(Global_VariableUtil.java:117) - [ INFO ] -> 当前变量名：${role}替换后的变量值为：{"msg":"登录成功","isNeedSetPwd":"true","role":"2"}
+2020-03-05 17:05:30 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg=登录成功
+2020-03-05 17:05:30 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg=登录成功&role=2
+2020-03-05 17:05:30 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:180) - [ INFO ] -> 当前请求url和params：http://bxfront.ynzy-tobacco.dtstack.cn/front/api/v1/uc-user-base/get-user-info-data?msg=登录成功&role=2&isNeedSetPwd=true
+2020-03-05 17:05:30 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Thu, 05 Mar 2020 09:05:08 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200305170508GET1L89x0]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-03-05 17:05:30 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel

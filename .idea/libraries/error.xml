@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="error">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$MAVEN_REPOSITORY$/error" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

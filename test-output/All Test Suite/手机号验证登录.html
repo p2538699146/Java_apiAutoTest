@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  手机号验证登录</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>手机号验证登录</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 05 17:05:26 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2624 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotest.cases.Login_by_mobile.login_mobile_test()'><b>login_mobile_test</b><br>Test class: com.autotest.cases.Login_by_mobile<br>Parameters: 13, 5, {"mobile":"15600015906","smsCode": "8888"}, {
+  "meta": {
+    "success": true,
+    "message": "执行成功",
+    "code": "00000000"
+  },
+  "data": {
+    "token": "front_user_login_weixin_eyJkYXRlIjoxNTgyNTcyNTQ2ODQ0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI1NzI1NDY4NDQsInV1aWQiOiJjZDU1ZGYwNC1iMTJjLTQwMGQtOTNhZS0wNDMwN2RiYjhiOWUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0N70XivAg8tjXOrHzMSZPyRYO8fOXY6RVngmLSj0I9s",
+    "msg": "登录成功",
+    "role": 2,
+    "isNeedSetPwd": false,
+    "setPwdToken": null,
+    "isNeedGetOpenId": false,
+    "setOpenIdToken": null,
+    "isNeedUnbindMobile": false,
+    "unbindMobileToken": null,
+    "unbindMobile": null
+  }
+}</td>
+<td></td>
+<td>1</td>
+<td>com.autotest.cases.Login_by_mobile@6537cf78</td></tr>
+<tr>
+<td title='com.autotest.cases.Login_by_mobile.login_mobile_test()'><b>login_mobile_test</b><br>Test class: com.autotest.cases.Login_by_mobile<br>Parameters: 14, 5, {"mobile":"15700118106","smsCode": "8888"}, {
+  "meta": {
+    "success": true,
+    "message": "执行成功",
+    "code": "00000000"
+  },
+  "data": {
+    "token": null,
+    "msg": null,
+    "role": null,
+    "isNeedSetPwd": true,
+    "setPwdToken": "eyJkYXRlIjoxNTgyNTcyNzQ3NjAzLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI1NzI3NDc2MDMsInV1aWQiOiIyOWU4MWI5NS02YWFlLTQxNTctYWNjMC03Nzk4MWE2YTVhYzUiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0KyGBmL1s5HE7miuhOWq6WIFltvB7oq6cgjvHvJgtg",
+    "isNeedGetOpenId": false,
+    "setOpenIdToken": null,
+    "isNeedUnbindMobile": false,
+    "unbindMobileToken": null,
+    "unbindMobile": null
+  }
+}</td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.Login_by_mobile@6537cf78</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="apache-maven-3.6">
+    <ANNOTATIONS>
+      <root url="file://D:/tools/apache-maven-3.6.2" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

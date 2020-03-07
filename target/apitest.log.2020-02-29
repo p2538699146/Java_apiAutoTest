@@ -1,0 +1,436 @@
+2020-02-29 00:20:26 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:07 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229002007POST1YpdOn]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgyOTA2ODA3NTcxLCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5MDY4MDc1NzEsInV1aWQiOiIxNzUxYjdkMS1kMzM4LTQyMDMtYTU3OS1kMTFlNDE4MjViYWIiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0DxSUm8piP8Ebbn3BABdpEz6gykmXQP0qCu1MY2JbEEI","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 00:20:26 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:07 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229002007POST7Ck9OK]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgyOTA2ODA3NzQyLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5MDY4MDc3NDIsInV1aWQiOiI2MDMxZWNjMi00MWU5LTRjNGItOTBhYS05Njc1NDEwNmM2MmMiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0I1A5n9QGlnFh8ICcMt9uHChCOGNEjIyNphYxsQCSbA","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 00:20:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:26 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:27 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-02-29 00:20:27 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:27 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:28 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-02-29 00:20:28 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:09 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229002009GET49qp1V]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-02-29 00:20:28 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 00:20:28 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 00:20:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:28 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 00:20:28 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{totalNum=19991116667}
+2020-02-29 00:20:28 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:28 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${userName}替换后的变量值为：2538699146
+2020-02-29 00:20:28 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:28 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 00:20:28 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":0,"err_msg":"","uuid":"943F29164F1CF2D262C9692871BFE9AE","token":"42789E0C07F53D63C7CFE8B8B9A5F4826DC3F08BA8B65DF5B6D58F5E746D015D","role":"user"},"msg":"V1.4.17 小白开放接口 App.User.Login"}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 00:20:29 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 00:20:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 00:20:29 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{toBeRegisterUser=19991116668}
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2532da38699146
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":1,"err_msg":"登录失败，账号不存在","uuid":"","token":"","role":""},"msg":"V1.4.17 小白开放接口 App.User.Login"}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${userName}替换后的变量值为：2538699146
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:185) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：password.len应该大于或等于32, 但现在password.len = 30","调试信息":{"当前接口":"App.User.Login","请求参数":{"s":"App.User.Login","password":"db2ba1a294c3130b3b2ae7559852aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"2538699146"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146","当前时间":"2020-02-29 00:20:10"}}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":0,"err_msg":"","users":[{"uuid":"2599EFC0D7FF23399238DA0C2295610E","username":"19991116668","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-15 20:40:09","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"943F29164F1CF2D262C9692871BFE9AE","username":"2538699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-06 00:21:24","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"32504CEECDB7CF5AD61B943BECDAF761","username":"258699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-09 01:23:39","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"C9895D26F0ED7907B8163000A9C27C5D","username":"p253869914","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-08 19:09:00","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":"","info":"这是kinfe的账号"}},{"uuid":"C232333BDE62098D36F85307FF0B17CF","username":"p2538699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-05 22:09:57","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":"","info":"这是kinfe的账号"}}],"total":5},"msg":"V1.4.17 小白开放接口 App.User.GetList"}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":0,"err_msg":"","uuid":"526948091926FEEC306C727088E48983"},"msg":"V1.4.17 小白开放接口 App.User.Register"}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:10 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：password.len应该大于或等于32, 但现在password.len = 26","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"19991116670"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=19991116670","当前时间":"2020-02-29 00:20:10"}}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:11 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数username","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"db2ba1a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6","当前时间":"2020-02-29 00:20:11"}}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 00:20:29 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:11 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数password","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"19991116670"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=19991116670","当前时间":"2020-02-29 00:20:11"}}
+========================================================================================================================
+2020-02-29 00:20:29 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:29 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 00:20:29 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 00:20:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:29 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:30 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 00:20:30 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{totalNum=19991116667}
+2020-02-29 00:20:30 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 00:20:30 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 00:20:30 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Server: nginx/1.12.2, Date: Fri, 28 Feb 2020 16:20:11 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":1,"err_msg":"用户已注册，不能重复注册","uuid":""},"msg":"V1.4.17 小白开放接口 App.User.Register"}
+========================================================================================================================
+2020-02-29 00:20:30 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:30 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 00:20:30 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 00:20:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 00:20:30 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 00:20:30 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 00:20:30 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{toBeRegisterUser=19991116668}
+2020-02-29 00:20:30 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:12 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAK8auGi0DQ8AQqeAt52aB4KeK+hO; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"10","humidity":"93","info":"阴","wid":"02","direct":"西北风","power":"1级","aqi":"30"},"future":[{"date":"2020-02-29","temperature":"10\/11℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"东北风转北风"},{"date":"2020-03-01","temperature":"10\/13℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"北风"},{"date":"2020-03-02","temperature":"7\/13℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东风转持续无风向"},{"date":"2020-03-03","temperature":"7\/12℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"持续无风向"},{"date":"2020-03-04","temperature":"2\/13℃","weather":"阴转多云","wid":{"day":"02","night":"01"},"direct":"东北风"}]},"error_code":0}
+========================================================================================================================
+2020-02-29 00:20:30 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 00:20:31 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:12 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAKGpgAzqxQEAQqeAt2YYZy7k4Pe/; Path=/; HttpOnly, Etag: 3af2b8bbb189b4c22cd9a06e6edd0255]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-02-29 00:20:31 method: com.autotest.util.HttpUtil.clientLog(HttpUtil.java:340) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息[[Date: Fri, 28 Feb 2020 16:20:12 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAO7WfXNsSQMAQqeAt+pCo/7E/2tu; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================================================================================
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-02-29 00:20:31 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-02-29 00:44:25 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Fri, 28 Feb 2020 16:44:06 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229004405POSTw1Ul9e]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgyOTA4MjQ2Mjk4LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5MDgyNDYyOTgsInV1aWQiOiIwMDBmMGJiYi01ZTNiLTQ2M2QtYmIwNy02MDE2MjczZTMzZjAiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0CNhVJqYJo8kJRcKBmTbGzUqn4BCz33A2aFabktsk","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 00:44:25 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Fri, 28 Feb 2020 16:44:06 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229004406POSTgh8hXu]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgyOTA4MjQ2NDYzLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5MDgyNDY0NjMsInV1aWQiOiJlYmY5MTEwMS1hYTU5LTRlY2ItOTZkNi1jYTAwYWE2YWQ2N2QiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In09oVxjCsj0g2Va90Ytou6f6iBh7dlCWcPJ50JEPmkbcg","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 00:44:25 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-02-29 19:24:42 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229192422POSTlEXWtw]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":"front_user_login_weixin_eyJkYXRlIjoxNTgyOTc1NDYyNjk0LCJ1aWQiOiIzNDgwN2I5MzkxYmE0YTdjOWUyNDdkNzNiZDJlZDE5MiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5NzU0NjI2OTQsInV1aWQiOiI0ZjBlMjA3NS05YmMyLTRlZjctYTAzNy1jYmFkMmExNzhkZmYiLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In0DtuYkVa0Di8c2P6IDhC0nXTSd8SrRws4CUESh239pk","msg":"登录成功","role":2,"isNeedSetPwd":false,"setPwdToken":null,"isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 19:24:42 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229192422POST9FrTC8]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"token":null,"msg":null,"role":null,"isNeedSetPwd":true,"setPwdToken":"eyJkYXRlIjoxNTgyOTc1NDYyODYwLCJ1aWQiOiIxNTcwMDExODEwNiIsInR5cCI6IkpXVCIsInRpbWUiOjE1ODI5NzU0NjI4NjAsInV1aWQiOiIzNzMwZGY4Mi03ODY0LTRlNzAtYmMyYi05Yjk3N2VlODczZTciLCJhbGciOiJIUzI1NiJ9eyJuYW1lIjoieXVubmFuemhvbmd5YW4iLCJ0eXBlIjoiand0In071LeFK9PGlUYfdgVaAWK0jgS13fGUXhM0eBeORn1CI","isNeedGetOpenId":false,"setOpenIdToken":null,"isNeedUnbindMobile":false,"unbindMobileToken":null,"unbindMobile":null}}
+========================================================================================================================
+2020-02-29 19:24:42 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:42 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-02-29 19:24:43 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:24 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229192424GET8nn3P2]
+=========================================================>响应体<========================================================
+{"meta":{"success":true,"message":"执行成功","code":"00000000"},"data":{"userMobile":"15600015906","userNickname":null,"userGender":0,"userBirth":null,"userAvatar":null,"userRole":2,"deliverName":"陈涵","deliverMobile":"15600015986","deliverProvince":"浙江省","deliverCity":"杭州市","deliverDistrict":"西湖区","deliverProvinceCode":"330000","deliverCityCode":"330100","deliverDistrictCode":"330106","deliverAddress":"互联网创业园二号楼708","isHighClubMember":false,"identityAuthStatus":0}}
+========================================================================================================================
+2020-02-29 19:24:43 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 19:24:43 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:43 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:44 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 19:24:44 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{totalNum=19991116667}
+2020-02-29 19:24:44 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:44 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${userName}替换后的变量值为：2538699146
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146
+2020-02-29 19:24:44 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":0,"err_msg":"","uuid":"943F29164F1CF2D262C9692871BFE9AE","token":"E6218ED0DA1A69B03134CB058E4F8CF7ED65119CF55E63E1524C2AD043F3BDA3","role":"user"},"msg":"V1.4.17 小白开放接口 App.User.Login"}
+========================================================================================================================
+2020-02-29 19:24:44 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:44 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 19:24:44 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 19:24:44 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:44 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:44 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 19:24:44 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{toBeRegisterUser=19991116668}
+2020-02-29 19:24:44 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2532da38699146
+2020-02-29 19:24:44 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":1,"err_msg":"登录失败，账号不存在","uuid":"","token":"","role":""},"msg":"V1.4.17 小白开放接口 App.User.Login"}
+========================================================================================================================
+2020-02-29 19:24:44 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:44 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${userName}替换后的变量值为：2538699146
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6
+2020-02-29 19:24:44 method: com.autotest.util.HttpUtil.doGet(HttpUtil.java:183) - [ INFO ] -> 当前请求url和params：http://hd215.api.yesapi.cn/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146
+2020-02-29 19:24:44 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：password.len应该大于或等于32, 但现在password.len = 30","调试信息":{"当前接口":"App.User.Login","请求参数":{"s":"App.User.Login","password":"db2ba1a294c3130b3b2ae7559852aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"2538699146"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Login&password=db2ba1a294c3130b3b2ae7559852aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=2538699146","当前时间":"2020-02-29 19:24:25"}}
+========================================================================================================================
+2020-02-29 19:24:44 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:44 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":0,"err_msg":"","users":[{"uuid":"2599EFC0D7FF23399238DA0C2295610E","username":"19991116668","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-15 20:40:09","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"526948091926FEEC306C727088E48983","username":"19991116670","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-02-29 00:20:10","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"943F29164F1CF2D262C9692871BFE9AE","username":"2538699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-06 00:21:24","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"32504CEECDB7CF5AD61B943BECDAF761","username":"258699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-09 01:23:39","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":""}},{"uuid":"C9895D26F0ED7907B8163000A9C27C5D","username":"p253869914","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-08 19:09:00","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":"","info":"这是kinfe的账号"}},{"uuid":"C232333BDE62098D36F85307FF0B17CF","username":"p2538699146","role":"user","role_desc":"普通会员","status":0,"status_desc":"正常","reg_time":"2020-01-05 22:09:57","ext_info":{"yesapi_avatar":"","yesapi_nickname":"","yesapi_email":"","yesapi_sex":"","yesapi_real_name":"","yesapi_points":0,"yesapi_reg_source":"","yesapi_reg_note":"","yesapi_mobile":"","yesapi_expiration_time":"","info":"这是kinfe的账号"}}],"total":6},"msg":"V1.4.17 小白开放接口 App.User.GetList"}
+========================================================================================================================
+2020-02-29 19:24:44 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 19:24:45 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":1,"err_msg":"用户已注册，不能重复注册","uuid":""},"msg":"V1.4.17 小白开放接口 App.User.Register"}
+========================================================================================================================
+2020-02-29 19:24:45 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 19:24:45 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：password.len应该大于或等于32, 但现在password.len = 26","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"19991116670"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=19991116670","当前时间":"2020-02-29 19:24:25"}}
+========================================================================================================================
+2020-02-29 19:24:45 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:45 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数username","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"db2ba1a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6","当前时间":"2020-02-29 19:24:25"}}
+========================================================================================================================
+2020-02-29 19:24:45 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 19:24:45 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:25 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.25]
+=========================================================>响应体<========================================================
+{"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数password","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"19991116670"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=19991116670","当前时间":"2020-02-29 19:24:25"}}
+========================================================================================================================
+2020-02-29 19:24:45 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 19:24:45 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 19:24:45 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:45 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:45 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select max(user_mobile) as totalNum from uc_user_test
+2020-02-29 19:24:45 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{totalNum=19991116667}
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${passWord}替换后的变量值为：db2ba1a294c3130b3b2ae755985442aa
+2020-02-29 19:24:45 method: com.autotest.util.Global_VariableUtil.replaceVariables(Global_VariableUtil.java:84) - [ INFO ] -> 当前变量名：${toBeRegisterUser}替换后的变量值为：19991116670
+2020-02-29 19:24:45 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Server: nginx/1.12.2, Date: Sat, 29 Feb 2020 11:24:26 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, X-Powered-By: PHP/7.1.26]
+=========================================================>响应体<========================================================
+{"ret":200,"data":{"err_code":1,"err_msg":"用户已注册，不能重复注册","uuid":""},"msg":"V1.4.17 小白开放接口 App.User.Register"}
+========================================================================================================================
+2020-02-29 19:24:45 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:45 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:29) - [ INFO ] -> 获取到sql脚本编号：1
+2020-02-29 19:24:45 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:39) - [ INFO ] -> 获取到sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 19:24:45 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:113) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 19:24:45 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:123) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 19:24:46 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:54) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test
+2020-02-29 19:24:46 method: com.autotest.util.DBCheckUtil.doQuery(DBCheckUtil.java:45) - [ INFO ] -> 编号：1，查询结果：{toBeRegisterUser=19991116668}
+2020-02-29 19:24:46 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:26 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAP58mUbSUg0AQqeAty1jGKBPw6JY; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"查询成功!","result":{"city":"杭州","realtime":{"temperature":"10","humidity":"93","info":"阵雨","wid":"03","direct":"东北风","power":"1级","aqi":"30"},"future":[{"date":"2020-02-29","temperature":"9\/12℃","weather":"小雨转小到中雨","wid":{"day":"07","night":"21"},"direct":"持续无风向"},{"date":"2020-03-01","temperature":"8\/13℃","weather":"小雨转阴","wid":{"day":"07","night":"02"},"direct":"持续无风向转东北风"},{"date":"2020-03-02","temperature":"6\/12℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东风"},{"date":"2020-03-03","temperature":"7\/14℃","weather":"小雨","wid":{"day":"07","night":"07"},"direct":"东北风转持续无风向"},{"date":"2020-03-04","temperature":"4\/13℃","weather":"阴","wid":{"day":"02","night":"02"},"direct":"东北风"}]},"error_code":0}
+========================================================================================================================
+2020-02-29 19:24:46 method: com.autotest.util.AssertUtil.assertEquals(AssertUtil.java:31) - [ WARN ] -> 断言实际结果与预期结果不一致，请检查写回的参数并查询数据库！
+2020-02-29 19:24:46 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:27 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAABiWKRFgCA8AQqeAtzautdMcBOOv; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"城市不能为空或暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-02-29 19:24:46 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 11:24:27 GMT, Content-Type: application/json;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: aliyungf_tc=AQAAAFpj41NUjQEAQqeAt0IhRqlCSGQz; Path=/; HttpOnly, Etag: 61af8c7934fd5398f3e724e3b67bf0d0]
+=========================================================>响应体<========================================================
+{"reason":"暂不支持该城市","result":null,"error_code":207301}
+========================================================================================================================
+2020-02-29 19:24:46 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-02-29 21:25:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:25:20 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:25:21 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-02-29 21:25:21 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:25:21 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:25:21 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-02-29 21:25:21 method: com.autotest.util.Global_VariableUtil.loadVariablesToMap(Global_VariableUtil.java:63) - [ ERROR ] -> 运行时异常，报错内容：java.lang.reflect.InvocationTargetException
+2020-02-29 21:25:22 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 13:25:03 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229212503GET2kQ7z9]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-02-29 21:25:22 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:56) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-02-29 21:25:22 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-02-29 21:26:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:26:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:26:28 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-02-29 21:26:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:26:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:26:29 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-02-29 21:26:29 method: com.autotest.util.Global_VariableUtil.loadVariablesToMap(Global_VariableUtil.java:63) - [ ERROR ] -> 运行时异常，报错内容：java.lang.reflect.InvocationTargetException
+2020-02-29 21:26:30 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 13:26:10 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229212610GETd890qF]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-02-29 21:26:30 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:56) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-02-29 21:26:30 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel
+2020-02-29 21:27:27 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:27:27 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:27:27 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 3,'') as toBeRegisterUser from uc_user_test
+2020-02-29 21:27:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:112) - [ INFO ] -> 开始解析jdbc.properties文件
+2020-02-29 21:27:28 method: com.autotest.util.JDBCUtil.getConnection(JDBCUtil.java:122) - [ INFO ] -> 开始连接数据库 --> 数据库连接地址[jdbc:mysql://rm-2ze16sqyg016xgis95o.mysql.rds.aliyuncs.com:3306/uc_center_master?userUnicode=true&characterEnding=utf-8]，用户名[dian_test]，密码[DTstack@2019]
+2020-02-29 21:27:28 method: com.autotest.util.JDBCUtil.query(JDBCUtil.java:53) - [ INFO ] -> 获取数据库操作方法,输入sql语句：select concat(max(user_mobile) + 2,'') as systemNotExistUser from uc_user_test
+2020-02-29 21:27:28 method: com.autotest.util.Global_VariableUtil.loadVariablesToMap(Global_VariableUtil.java:63) - [ ERROR ] -> 运行时异常，报错内容：java.lang.reflect.InvocationTargetException
+2020-02-29 21:27:29 method: com.autotest.util.Log4jUtil.clientLog(Log4jUtil.java:18) - [ INFO ] -> 
+=========================================================>请求结果<======================================================
+=========================================================>状态码[200]<===================================================
+=========================================================>头信息<========================================================
+[Date: Sat, 29 Feb 2020 13:27:10 GMT, Content-Type: text/html;charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Vary: Accept-Encoding, DT_X_REQUEST_ID: 200229212710GETv08q5j]
+=========================================================>响应体<========================================================
+{"meta":{"code":"10010000","message":"微信登录过期","success":false}}
+========================================================================================================================
+2020-02-29 21:27:29 method: com.autotest.util.AssertUtil.assertEquals_Error_code(AssertUtil.java:56) - [ WARN ] -> 断言实际结果与预期结果不一致，实际返回err_code：10010000
+2020-02-29 21:27:29 method: com.autotest.cases.BaseTest.batchWriteBackDaras(BaseTest.java:30) - [ INFO ] -> 
+开始将测试结果批量写回excel

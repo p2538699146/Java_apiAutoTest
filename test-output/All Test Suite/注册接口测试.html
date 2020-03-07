@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  注册接口测试</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>注册接口测试</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 01 00:26:22 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (243 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotest.cases.RegisterTest.test_Register()'><b>test_Register</b><br>Test class: com.autotest.cases.RegisterTest<br>Parameters: 7, 3, {"app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"${toBeRegisterUser}","password":"${passWord}"}, {"ret":200,"data":{"err_code":1,"err_msg":"用户已注册，不能重复注册","uuid":""},"msg":"V1.4.11 小白开放接口 App.User.Register"}, , </td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.RegisterTest@4de8b406</td></tr>
+<tr>
+<td title='com.autotest.cases.RegisterTest.test_Register()'><b>test_Register</b><br>Test class: com.autotest.cases.RegisterTest<br>Parameters: 8, 3, {"app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"${toBeRegisterUser}","password":"a294c3130b3b2ae755985442aa"}, {"ret":400,"data":{},"msg":"客户端非法请求：password.len应该大于或等于32, 但现在password.len = 26","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"p2538699146"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=p2538699146","当前时间":"2020-01-06 00:21:24"}}, , </td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.RegisterTest@4de8b406</td></tr>
+<tr>
+<td title='com.autotest.cases.RegisterTest.test_Register()'><b>test_Register</b><br>Test class: com.autotest.cases.RegisterTest<br>Parameters: 9, 3, {"app_key":"941EADA3DF57BE2DFB0920398B6466D6","password":"${passWord}"}, {"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数username","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","password":"db2ba1a294c3130b3b2ae755985442aa","app_key":"941EADA3DF57BE2DFB0920398B6466D6"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&password=db2ba1a294c3130b3b2ae755985442aa&app_key=941EADA3DF57BE2DFB0920398B6466D6","当前时间":"2020-01-06 00:21:24"}}, , </td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.RegisterTest@4de8b406</td></tr>
+<tr>
+<td title='com.autotest.cases.RegisterTest.test_Register()'><b>test_Register</b><br>Test class: com.autotest.cases.RegisterTest<br>Parameters: 10, 3, {"app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"${toBeRegisterUser}"}, {"ret":400,"data":{},"msg":"客户端非法请求：缺少必要参数password","调试信息":{"当前接口":"App.User.Register","请求参数":{"s":"App.User.Register","app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"p2538699146"},"请求链接":"http:\/\/hd215.api.yesapi.cn\/?s=App.User.Register&app_key=941EADA3DF57BE2DFB0920398B6466D6&username=p2538699146","当前时间":"2020-01-06 00:21:24"}}, , </td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.RegisterTest@4de8b406</td></tr>
+<tr>
+<td title='com.autotest.cases.RegisterTest.test_Register()'><b>test_Register</b><br>Test class: com.autotest.cases.RegisterTest<br>Parameters: 11, 3, {"app_key":"941EADA3DF57BE2DFB0920398B6466D6","username":"${toBeRegisterUser}","password":"${passWord}"}, {"ret":200,"data":{"err_code":0,"err_msg":"","uuid":"943F29164F1CF2D262C9692871BFE9AE"},"msg":"V1.4.11 小白开放接口 App.User.Register"}, [{"no":"1","sql":"select max(user_mobile) as totalNum from uc_user_test"}], [{"no":"1","sql":"select concat(max(user_mobile) + 1) as toBeRegisterUser from uc_user_test"}]</td>
+<td></td>
+<td>0</td>
+<td>com.autotest.cases.RegisterTest@4de8b406</td></tr>
+</table><p>
+</body>
+</html>
